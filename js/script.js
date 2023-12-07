@@ -7,7 +7,7 @@ function hitungLuas() {
         document.getElementById('result').innerHTML = 'Luas Segitiga: ' + area;
     } else {
         document.getElementById('result').innerHTML = 'Masukkan angka valid untuk panjang alas dan tinggi.';
-        document.getElementById('result').innerHTML = 'tampilkan hasil dari luas segitiga.';
+      
     }
 }
 
@@ -21,6 +21,6 @@ function hitungKeliling() {
         document.getElementById('result').innerHTML = 'Keliling Segitiga: ' + perimeter;
     } else {
         document.getElementById('result').innerHTML = 'Masukkan angka valid untuk panjang alas dan tinggi.';
-        document.getElementById('result').innerHTML = 'tampilkan hasil dari keliling segitiga.';
+    
     }
 }
